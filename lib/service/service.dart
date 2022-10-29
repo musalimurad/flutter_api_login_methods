@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_api_methods/model/login_model.dart';
 
 class Service {
-  final String baseUrl = "https://api.metaflix.az/api/";
+  final String baseUrl = "YOUR_API_URL";
   final dio = Dio();
 
   Future<LoginModel?> loginCall(
